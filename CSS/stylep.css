@@ -1,0 +1,51 @@
+body{
+    color:black;
+    font-family: sans-serif;
+    background-color: darkcyan;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .navegacion{
+    display: flex;
+    word-wrap: no-wrap;
+  }
+  
+  .logo a,
+  .navegacion li,
+  .navegacion a{
+    list-style: none;
+    text-decoration:none;
+    
+    
+  }
+  .navegacion a{
+    color:black;
+    
+  }
+  .logo a{
+    color: darkcyan;
+  }
+ 
+  .navegacion a:hover{
+    color: red;
+  }
+  
+  .navegacion li,
+  .logo
+  {
+    
+    border-radius: 5px;
+  
+  }
+  .logo{
+  background-color: black;
+  padding: 15px;
+    
+  }
+  .navegacion li{
+    justify-content: space-between;
+    margin-left: 22px;
+    align-self: center;
+  }
+  
